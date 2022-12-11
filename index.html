@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript Course</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .tax-calculator-div{
+    margin-bottom: 20px;
+  }
+  .tax-calculator-div div{
+    display: flex;
+    flex-direction: column;
+  }
+  </style>
+</head>
+<body> 
+ 
+<div class="p-5 bg-primary text-white text-center">
+  <h1>Welcome to Jose's web page </h1>
+  <p> Feel free to browse over my projects</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="page2.html">Page 2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page3.html">Page 3</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page4.html">Page 4</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="page5.html">Page 5</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="postimage"> 
+        <img src="profile.png" alt="profile">
+      </div>
+      <p>I am an inspiring programmer interested in learning as much as possible and potentially getting a job at a company in the future. I have recently started this journey and I 
+        look forward to what the future brings. 
+      </p>
+      <h3 class="mt-4">Projects</h3>
+      <p>I will be updating my JavaScript projects soon. They may not be the best but I am a work in progress.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Link</a>
+        </li>
+        <li class="nav-item"> 
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2> Why I'm learning JavaScript?</h2>
+      <h5>Here are my reasons... </h5>
+      <div class="postimage"> 
+        <img src="jsimage1.png" alt="jsimage">
+      </div>
+      <p>JavaScript is the language of the web:</p>
+      <p> 
+        <ul>
+          <li> It is a very versatile language </li>
+          <li> You can build frontend </li>
+          <li> You can build backend </li>
+          <li> Mobile and desktop applications </li>
+          <li> You can learn machine learning and artificial intelligence </li>
+      </p>
+
+      <h2 class="mt-5">Learning Web Development</h2>
+      <h5> There's many job opportunities</h5>
+      <div class="postimage"> 
+        <img src="webdimage.jpeg" alt="webimage">
+      </div>
+      <p> Web development is about creating and maintaining websites. There are two roads you can take, frontend and backend development. In this course I am 
+        learning the fundamentals of frontend that consists of learning HTML, CSS and JavaScript. </p>
+      <p>JavaScript has been used by over 94 percent of all websites. It is the most used programming web language. 
+        It is supported by most browsers like Mozilla firefox, Google and Safari. Javascript is a frontend web development tool primarily based on java. It helps to make web pages more interactive and appealing. 
+      </p>
+
+      <h2 class="mt-5">Tax Calculator</h2>
+      <h5> This program calculates tax income</h5>
+      <div class="tax-calculator-div">
+        <div>
+          <label>Enter taxable income:</label>
+          <input type="text" id="income" />
+        </div>
+        <div> 
+          <input type="button" value="Calculate" name="calculate" id="calculate"/>
+        </div>
+      </div>
+      <div class= "tax-calculator-div">
+        <div>
+          <label>Income tax owed:</label>
+          <input type="text" id="tax" disabled>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Footer</p>
+</div>
+<script src="calculate_tax.js"></script>
+</body>
+</html>
+  
