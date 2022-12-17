@@ -9,6 +9,7 @@ h1 {
 div {
     margin-bottom: 0.5em;
 }
+
 fieldset {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -55,4 +56,10 @@ p {
 }
 span {
 	color: red;
+}
+
+.error{
+    width: auto;
+    color:red;
+    font-style: italic;
 }
